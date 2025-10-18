@@ -1,0 +1,6 @@
+
+
+/* Ensure form elements don't overlap map, and map is clickable */
+.map { position: relative; z-index: 1; }
+.map canvas { cursor: crosshair; }
+.card select, .card input, .card textarea { position: relative; z-index: 2; }
